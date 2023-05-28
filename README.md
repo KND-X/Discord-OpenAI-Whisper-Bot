@@ -7,6 +7,16 @@ Discord Bot designed to use OpenAi Whisper functionality
 
 - Install python 3.9.9 and optionally git
 
+- Download and install CUDA toolkit: https://developer.nvidia.com/cuda-11-8-0-download-archive
+
+- Install pytorch for CUDA 11.8:
+
+```bash
+  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
+- Download ffmpeg: https://ffmpeg.org/download.html, unpack it and add bin folder to the system path
+
 - Create discord app https://discord.com/developers/docs/getting-started#step-1-creating-an-app
 
 - Enter Bot section in left sidebar, turn on Message Content Intent, copy token and store it somewhere
